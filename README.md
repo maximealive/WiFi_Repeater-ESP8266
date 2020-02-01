@@ -18,7 +18,7 @@ In case of issue -> erase & upload stock firmware(bin folder, guide in *Referenc
 
 ![serial_monitor](https://user-images.githubusercontent.com/12975980/73595501-bb792880-4519-11ea-9f5d-42184f2b0752.PNG)
 
-- Press *'RST'* on NodeMcu and in serial monitor:
+- Press *'RST'* switch on NodeMcu and in serial monitor:
 1. `set ssid 'xxxx'`(in windows to show SSID in terminal `netsh wlan show profiles`)
 2. `set password 'xxxx'`
 3. `set ap_ssid 'xxxx'`
