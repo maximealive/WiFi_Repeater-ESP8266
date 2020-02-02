@@ -3,7 +3,7 @@ It's not properly equal to a repeater because of limited NodeMcu range and speed
 
 ## Tutorial
 - Install driver __*CH341SER_win.zip*__
-- Connect NodeMcu and check com port *Control Panel >> Device Manager >> Ports*
+- Connect NodeMcu and check com port -> *Control Panel >> Device Manager >> Ports*
 - Open __*flash_download_tools_v3.6.8.exe*__ -> for me was *ESP8266*
 - Put the same settings as in picture(BAUD, FLASH-SIZE, etc):
 
@@ -11,7 +11,7 @@ It's not properly equal to a repeater because of limited NodeMcu range and speed
 ![esp_tool](https://user-images.githubusercontent.com/12975980/73595374-33deea00-4518-11ea-855e-0eae4022df18.jpeg)
 
 
-- Open __*Arduino IDE*__ -> *Tools* -> *Serial Monitor* and select *Both NL&CR* and *115200* as picture below:
+- Open __*Arduino IDE*__ -> *Tools* >> *Serial Monitor* and select *Both NL&CR* and *115200* as picture below:
 
 
 ![serial_monitor](https://user-images.githubusercontent.com/12975980/73595501-bb792880-4519-11ea-9f5d-42184f2b0752.PNG)
@@ -28,7 +28,7 @@ It's not properly equal to a repeater because of limited NodeMcu range and speed
 __Please note:__ 
 - Replace 'xxxx' with your own credential and without quotes
 - During settings add '%20' if ssid contains spaces i.e. 'My Repeater' will be 'My%20Repeater' 
-- In case of issue -> erase & upload stock firmware(bin folder, guide in *References/Codes* <sup>*<sup>)
+- In case of issue -> erase & upload stock firmware(bin folder, guide in *References/Codes*)<sup>*<sup>
 
 ## References/Codes
 - https://www.instructables.com/id/ESP-12F-Flashing-AT-Firmware/ <sup>*<sup>
