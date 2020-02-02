@@ -28,7 +28,7 @@ It's not properly equal to a repeater because of limited NodeMcu range and speed
 __Please note:__ 
 - Replace 'xxxx' with your own credential and without quotes
 - During settings add '%20' if ssid contains spaces i.e. 'My Repeater' will be 'My%20Repeater' 
-- In case of issue -> erase & upload stock firmware(bin folder, guide in *References/Codes*) <sup>*<sup>
+- In case of issue -> erase & upload stock firmware(bin folder, guide in *References/Codes* <sup>*<sup>)
 
 ## References/Codes
 - https://www.instructables.com/id/ESP-12F-Flashing-AT-Firmware/ <sup>*<sup>
