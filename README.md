@@ -26,12 +26,12 @@ It's not properly equal to a repeater because of limited NodeMcu range and speed
 7. `quit`
 
 __Please note:__ 
-- Replace 'xxxx' with your own credential
+- Replace 'xxxx' with your own credential and without quotes
 - During settings add '%20' if ssid contains spaces i.e. 'My Repeater' will be 'My%20Repeater' 
-- In case of issue -> erase & upload stock firmware(bin folder, guide in *References/Codes*)
+- In case of issue -> erase & upload stock firmware(bin folder, guide in *References/Codes*) <sup>*<sup>
 
 ## References/Codes
-- https://www.instructables.com/id/ESP-12F-Flashing-AT-Firmware/
+- https://www.instructables.com/id/ESP-12F-Flashing-AT-Firmware/ <sup>*<sup>
 - https://github.com/martin-ger/esp_wifi_repeater
 - https://www.instructables.com/id/POWERFUL-Wi-Fi-REPEATER-NODE-MCU/
 
