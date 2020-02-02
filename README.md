@@ -1,11 +1,9 @@
 # Simple Wi-Fi Repeater - NodeMcu
 It's not properly equal to a repeater because of limited NodeMcu range and speed so "simple Wi-Fi repeater".
 
-In case of issue -> erase & upload stock firmware(bin folder, guide in *References/Codes*).
-
 ## Tutorial
 - Install driver __*CH341SER_win.zip*__
-- Connect NodeMcu and check com port (*Control Panel >> Device Manager >> Ports*)
+- Connect NodeMcu and check com port *Control Panel >> Device Manager >> Ports*
 - Open __*flash_download_tools_v3.6.8.exe*__ -> for me was *ESP8266*
 - Put the same settings as in picture(BAUD, FLASH-SIZE, etc):
 
@@ -26,6 +24,11 @@ In case of issue -> erase & upload stock firmware(bin folder, guide in *Referenc
 5. `set ap_open 0`
 6. `save`
 7. `quit`
+
+__Please note:__ 
+- Replace 'xxxx' with your own credential
+- During settings add '%20' if ssid contains spaces i.e. 'My Repeater' will be 'My%20Repeater' 
+- In case of issue -> erase & upload stock firmware(bin folder, guide in *References/Codes*)
 
 ## References/Codes
 - https://www.instructables.com/id/ESP-12F-Flashing-AT-Firmware/
