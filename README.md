@@ -1,6 +1,9 @@
 # Simple Wi-Fi Repeater - NodeMcu
 It's not properly equal to a repeater because of limited NodeMcu range and speed so "simple Wi-Fi repeater".
 
+## Hardware
+NodeMcu (CH340)
+![no](https://user-images.githubusercontent.com/12975980/73676259-5efe4080-46b4-11ea-8601-724b7754edf6.jpg)
 ## Tutorial
 - Install driver __*CH341SER_win.zip*__
 - Connect NodeMcu and check com port -> *Control Panel >> Device Manager >> Ports*
