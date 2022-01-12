@@ -1,8 +1,7 @@
-# Simple Wi-Fi Repeater - NodeMcu
-It's not properly equal to a repeater because of limited NodeMcu range and speed so "simple Wi-Fi repeater".
+# Wi-Fi Repeater - ESP8266
 
 ## Hardware
-NodeMcu (CH340)
+ESP8266 (CH340)
 
 
 ![no](https://user-images.githubusercontent.com/12975980/73676259-5efe4080-46b4-11ea-8601-724b7754edf6.jpg)
@@ -22,10 +21,10 @@ NodeMcu (CH340)
 ![serial_monitor](https://user-images.githubusercontent.com/12975980/73595501-bb792880-4519-11ea-9f5d-42184f2b0752.PNG)
 
 - Press *'RST'* switch on NodeMcu and in serial monitor:
-1. `set ssid 'xxxx'`(in windows to show SSID in terminal `netsh wlan show profiles`)
+1. `set ssid 'xxxx'` (in windows to show SSID in terminal `netsh wlan show profiles`)
 2. `set password 'xxxx'`
 3. `set ap_ssid 'xxxx'`
-4. `set ap_password 'xxxx'`(min 8 characters)
+4. `set ap_password 'xxxx'` (min 8 characters)
 5. `set ap_open 0`
 6. `save`
 7. `quit`
@@ -33,10 +32,10 @@ NodeMcu (CH340)
 __Please note:__ 
 - Replace 'xxxx' with your own credential and without quotes
 - During settings add '%20' if ssid contains spaces i.e. 'My Repeater' will be 'My%20Repeater' 
-- In case of issue -> erase & upload stock firmware(bin folder, guide in *References/Codes*)<sup>*<sup>
+- In case of issue -> erase & upload stock firmware (bin folder, guide in *References/Codes*) <sup>*</sup>
 
 ## References/Codes
-- https://www.instructables.com/id/ESP-12F-Flashing-AT-Firmware/ <sup>*<sup>
+- https://www.instructables.com/id/ESP-12F-Flashing-AT-Firmware/ <sup> * </sup>
 - https://github.com/martin-ger/esp_wifi_repeater
 - https://www.instructables.com/id/POWERFUL-Wi-Fi-REPEATER-NODE-MCU/
 
