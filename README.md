@@ -9,7 +9,7 @@ ESP8266 (CH340)
 - Install driver __*CH341SER_win.zip*__
 - Connect NodeMcu and check com port -> *Control Panel >> Device Manager >> Ports*
 - Open __*flash_download_tools_v3.6.8.exe*__ -> for me was *ESP8266*
-- Put the same settings as in picture(BAUD, FLASH-SIZE, etc):
+- Put the same settings as in picture (BAUD, FLASH-SIZE, etc):
 
 
 ![esp_tool](https://user-images.githubusercontent.com/12975980/73595374-33deea00-4518-11ea-855e-0eae4022df18.jpeg)
